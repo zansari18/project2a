@@ -1,10 +1,22 @@
 body {
   background: red;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  margin: 3em auto;
+  padding: 3em;
+  position: relative;
+  border: solid 5px black;
+  border-radius: 1em;
+  text-align: center;
+  max-width: 800px;
 }
 
 /*This applies from 600px onwards (desktop)*/
 @media (min-width: 600px) {
   body {
-    background: green;
+    background: white;
   }
 }
