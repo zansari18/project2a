@@ -80,15 +80,12 @@ img {
   body {
     background: white;
   }
-  /* Navbar */
   .navbar {
     overflow: hidden;
     background-color: black;
     font-family: Arial;
 	text-align:center;
   }
-
-   /* Links inside the navbar */
   .navbar a {
     font-size: 16px;
     color: white;
@@ -96,14 +93,10 @@ img {
     padding: 14px 16px;
     text-decoration: none;
   }
-
-  /* The dropdown container */
   .dropdown {
     overflow: hidden;
     text-align:center;
   }
-
-  /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -111,27 +104,20 @@ img {
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-	
-	
+    font-family: inherit;
+    margin: 0;
  }
-
-  /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
-
-  /* Dropdown content (hidden by default) */
   .dropdown-content {
+	margin-top:25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 1500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
-
-  /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
     color: black;
@@ -140,45 +126,45 @@ img {
     display: block;
     text-align: center;
   }
-
-  /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
   img {
-    margin-top:1em;
-	margin-left:1em;
 	width: 200px;
     height: auto;
 	border: solid red 10px;
 	border-radius:50%;
-	background:color: red;
+	background-color: red;
+	margin-left:150px;
   }
-  .qview {
-	  float:left;
-	  border: 10px solid grey;
-	  
-	  box-shadow:10px 10px #65383A;
-	  width:20%;
-  }
+
   .studentinfo {
+	  float:left;
+	  clear:right;
 	  width:50%;
 	  margin-left:1.5em;
+	  background-color:red;
+	  border:10px 20px;
+	  max-width:520px;
+	  margin:auto;
+	  margin-top: 4rem;
+	  padding:10px;
+	   box-shadow:20px 20px grey;
   }
   .studentinfo p{
 	  font-weight:bold;
 	  font-size: 20px;
-	  margin-left: 1em;
+	  text-align:center;
   }
+  
   .material-symbols-outlined{
 	  color:red;
 	  font-size:30px;
-	  margin-top:5px;
+	  margin-top:30px;
+	  margin-left:35px;
   }
   .material-symbols-outlined:hover, .material-symbols-outlined:focus {
 	  cursor:pointer;
@@ -187,6 +173,19 @@ img {
 	  transform: scale(0.96);
   }
   h1{
+	  font-size:35px;
 	  color:red;
+	  width:90%;
+	  text-align:center;
+  }
+  .AccessIIT{
+	  width:35px;
+	  height:35px;
+	  float:left;
+	  
+  }
+  .navbar{
+	  display:inline-flex;
+	  width:100%;
   }
 }
