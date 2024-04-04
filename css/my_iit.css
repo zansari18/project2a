@@ -132,32 +132,43 @@ img {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  img {
-	width: 200px;
-    height: auto;
-	border: solid red 10px;
-	border-radius:50%;
-	background-color: red;
-	margin-left:150px;
   }
-
+   .apps img {
+	   width: 150px;
+	   height:150px;
+	   border: solid red 5px;
+	   border-radius:50%;
+	   background-color:red;
+	   margin-right: 20px;
+	   margin-left: 50px;
+	   margin-top:35px;
+	   margin-bottom:20px;
+    }
   .studentinfo {
 	  float:left;
-	  clear:right;
+	  clear:right; 	
 	  width:50%;
 	  margin-left:1.5em;
 	  background-color:red;
 	  border:10px 20px;
 	  max-width:520px;
 	  margin:auto;
-	  margin-top: 4rem;
+	  margin-top: 2rem;
 	  padding:10px;
-	   box-shadow:20px 20px grey;
+	  box-shadow:10px 10px grey;
   }
   .studentinfo p{
 	  font-weight:bold;
 	  font-size: 20px;
 	  text-align:center;
+  }
+  .studentinfo img {
+	width: 200px;
+    height: 200px;
+	border: solid red 10px;
+	border-radius:50%;
+	background-color: red;
+	margin-left:150px;
   }
   
   .material-symbols-outlined{
