@@ -4,11 +4,51 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title></title>
+	<title>MyIIT Portal</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" media="screen" href="css/my_iit.css">
   </head>
-
   <body>
+	<div class="navbar">
+      
+	  <div class="dropdown">
+        <span class="material-symbols-outlined">menu</span>
+        <div class="dropdown-content">
+          <a href="#">Welcome</a>
+          <a href="#">Academics</a>
+          <a href="#">Student Life</a>
+		  <a href="#">Athletics</a>
+		  <a href="#">Research</a>
+		  <a href="#">Training and Help</a>
+        </div>
+      </div>
+	  <h1>MyIIT</h1>
+	  <div class="AccessIIT">
+	    <span class="material-symbols-outlined">view_cozy</span>
+      </div>
+    </div>
+	<div class="studentinfo">
+	  <img src="media/default_pfp.jpeg" id="profile" alt="an anonymous profile picture">
+	  <p>Name: Jane Doe</p>
+	  <p>Username: jdoe1</p>
+	  <p>HawkID: A12345678</p>
+	</div>
+	<div class="qview">
+	  <button class="btn"><i class="fa fa-gpa"></i>GPA</button>
+	  <button class="btn"><i class="fa fa-credithours"></i>CREDIT HOURS</button>
+	  <button class="btn"><i class="fa fa-nextbill"></i>NEXT BILL</button>
+	  <button class="btn"><i class="fa fa-hawkcard"></i>HAWKCARD</button>
+      <button class="btn"><i class="fa fa-holds"></i>HOLDS</button>
+      <button class="btn"><i class="fa fa-keys"></i>KEYS</button>
+	</div>
+	<div class="apps">
+	  <button class="btn"><i class="fa fa-register"></i>REGISTER</button>
+      <button class="btn"><i class="fa fa-financialaid"></i>FINANCIAL AID</button>
+      <button class="btn"><i class="fa fa-accounting"></i>ACCOUNTING</button>
+	</div>
+	<div class="calendar">
+	  <iframe src="https://calendar.google.com/calendar/embed?src=c_8e930eceada4407236e805aef57901a0c1577d628e2c02b2de7e1732da1081f0%40group.calendar.google.com&ctz=America%2FChicago"></iframe>
+	</div>
     <script src="js/scripts.js"></script>
   </body>
 </html>
