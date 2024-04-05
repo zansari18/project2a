@@ -4,11 +4,29 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title></title>
+    <link rel="stylesheet" media="screen" href="css/iit_login.css">
+    <title>Login Page</title>
+	<script src="js/scripts.js"></script>
   </head>
 
   <body>
-    <script src="js/scripts.js"></script>
+    <main id="content">
+	  <form method="get" action="#null" autocomplete="on">
+	    <h1>Make sure to use your regular university username and current password</h1>
+		<ol>
+		  <li id="input-username">
+		    <label for="username">Username</label>
+			<input type="text" name="username" id="username" placeholders="Enter your username" required>
+		  </li>
+		  <li id="input-password">
+		    <label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholders="Enter your password" required>
+		  </li>
+		  <li id="input-submit">
+		    <input type="submit" name="submit" id="submit" value="Sign In">
+		  </li>
+		</ol>
+	  </form>
+	</main>
   </body>
 </html>
