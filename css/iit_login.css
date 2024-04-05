@@ -14,6 +14,53 @@ body {
   max-width: 800px;
 }
 
+h1 {
+  font-size: 1.5em;
+  padding: 1em 0;
+  margin: 0;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+#input-username, 
+#input-password {
+  text-align: left;
+}
+
+#input-username label, 
+#input-password label {
+  font-weight: bold;
+}
+
+#input-username input, 
+#input-password input {
+  box-sizing: border-box;
+}
+
+#input-submit-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+#input-submit {
+  padding: 0.8em;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 70%;
+  font-weight: bold;
+}
+
+#submit {
+  padding: 0.8em;
+  border-radius: 0.4em;
+  color: white;
+  background-color: red;
+}
+
 /*This applies from 600px onwards (desktop)*/
 @media (min-width: 600px) {
   body {
